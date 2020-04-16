@@ -76,3 +76,14 @@ drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 | mv [source] [destination] | - move/rename                                       |
 | mv -i                     | - move interactively (will ask before over writing) |
 | mv /root/file .           | - moves file to current directory                   |
+
+
+### DELETE FILES
+
+| Key                   | Description                        |
+| :-------------------- | :--------------------------------- |
+| rm /tmp/testfile      | - remove file                      |
+| rmdir /tmp/testdir    | - remove empty testdir             |
+| rm -r /tmp/testdir    | - remove directory and its content |
+| rm -r -i /tmp/testdir | - remove interactive               |
+| rm -rf /tmp/testdir   | - force remove                     |
