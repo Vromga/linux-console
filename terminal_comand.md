@@ -55,9 +55,18 @@
 | -t   | - list new files first             |
 | -rt  | - list in reverse time (old first) |
 
-#### operator -l:
+#### option -l:
 example
 ```bash 
 -rw-r--r-- 1 name_user name_user 0 Apr 16 17:36 xfiles.txt
 drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 ```
+### COPY FILES
+| Key                        | Description                                  |
+| :------------------------- | :------------------------------------------- |
+| cp [files(s)] [destantion] | - copy file(s)                               |
+| cp -r                      | - copy recursively (if you want to copy dir) |
+| cp -i                      | - copy interactively                         |
+| cp /root/file .            | - copy file to current directory             |
+
+ 
