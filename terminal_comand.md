@@ -19,7 +19,7 @@
 | Ctrl + l     | - clear terminal                        |
 
 ### Command in terminal:
-| key      | Description                    |
+| Key      | Description                    |
 | :------- | :----------------------------- |
 | fg       | - foreground job[number];      |
 | clear    | - clear screen;                |
@@ -30,7 +30,7 @@
 
 ### BASIC COMMAND LINUX
 
-| key          | Description                                    |
+| Key          | Description                                    |
 | :----------- | :--------------------------------------------- |
 | pwd          | - print pach working directory                 |
 | cd           | - change directory                             |
@@ -47,7 +47,17 @@
 | rm and rmdir | - remove file and/or directory                 |
 
 ### LS OPTIONS
-| key  | Description |
-| :--- | :---------- |
-| -l   | - long list |
+| Key  | Description                        |
+| :--- | :--------------------------------- |
+| -l   | - long list                        |
+| -a   | - list hidden files                |
+| -r   | - list in reverse name             |
+| -t   | - list new files first             |
+| -rt  | - list in reverse time (old first) |
 
+#### operator -l:
+example
+```bash 
+-rw-r--r-- 1 name_user name_user 0 Apr 16 17:36 xfiles.txt
+drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
+```
