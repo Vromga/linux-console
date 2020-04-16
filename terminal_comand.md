@@ -69,4 +69,10 @@ drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 | cp -i                      | - copy interactively                         |
 | cp /root/file .            | - copy file to current directory             |
 
- 
+ ### MOVE FILES
+
+| Key                       | Description                                         |
+| :------------------------ | :-------------------------------------------------- |
+| mv [source] [destination] | - move/rename                                       |
+| mv -i                     | - move interactively (will ask before over writing) |
+| mv /root/file .           | - moves file to current directory                   |
