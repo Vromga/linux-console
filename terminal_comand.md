@@ -1,9 +1,9 @@
 # Terminal commands
-### Change password root:
+### **Change password root**:
 - passwd
 
 
-### Hot key terminal:
+### *Hot key terminal*:
 | Key          | Description                             |
 | :----------- | :-------------------------------------- |
 | Ctrl + c     | - kill command                          |
@@ -18,7 +18,7 @@
 | Ctrl + y     | - yank = paste                          |
 | Ctrl + l     | - clear terminal                        |
 
-### Command in terminal:
+### *Command in terminal*:
 | Key      | Description                    |
 | :------- | :----------------------------- |
 | fg       | - foreground job[number];      |
@@ -28,7 +28,7 @@
 | Ctrl + r | - search command history       |
  
 
-### BASIC COMMAND LINUX
+### **BASIC COMMAND LINUX**
 
 | Key          | Description                                    |
 | :----------- | :--------------------------------------------- |
@@ -46,7 +46,7 @@
 | mv           | - move or rename file                          |
 | rm and rmdir | - remove file and/or directory                 |
 
-### LS OPTIONS
+### *LS OPTIONS*
 | Key  | Description                        |
 | :--- | :--------------------------------- |
 | -l   | - long list                        |
@@ -61,7 +61,7 @@ example
 -rw-r--r-- 1 name_user name_user 0 Apr 16 17:36 xfiles.txt
 drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 ```
-### COPY FILES
+### *COPY FILES*
 | Key                        | Description                                  |
 | :------------------------- | :------------------------------------------- |
 | cp [files(s)] [destantion] | - copy file(s)                               |
@@ -69,7 +69,7 @@ drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 | cp -i                      | - copy interactively                         |
 | cp /root/file .            | - copy file to current directory             |
 
- ### MOVE FILES
+ ### *MOVE FILES*
 
 | Key                       | Description                                         |
 | :------------------------ | :-------------------------------------------------- |
@@ -78,7 +78,7 @@ drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 | mv /root/file .           | - moves file to current directory                   |
 
 
-### DELETE FILES
+### *DELETE FILES*
 
 | Key                   | Description                        |
 | :-------------------- | :--------------------------------- |
