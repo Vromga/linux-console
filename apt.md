@@ -12,13 +12,14 @@
 | apt show         | apt-get show         | show information about package                   |
 | apt update       | apt-get update       | Resynchronize sources                            |
 | apt upgrade      | apt-get upgrade      | upgrade all installed packages to newest version |
-| apt dist-upgrade | apt-get dist-upgrade | same as upgrade and also upgrade dependencies    |
+| apt full-upgrade | apt-get dist-upgrade | same as upgrade and also upgrade dependencies    |
 
 ### **help apt**
 
 ```bash
 apt --help
 ```
+
 ## DPKG
 
 | Key                 | Description                            |
