@@ -1,9 +1,11 @@
 # Terminal commands
-### **Change password root**:
+
+## **Change password root**
+
 - passwd
 
+### *Hot key terminal*
 
-### *Hot key terminal*:
 | Key          | Description                             |
 | :----------- | :-------------------------------------- |
 | Ctrl + c     | - kill command                          |
@@ -18,7 +20,8 @@
 | Ctrl + y     | - yank = paste                          |
 | Ctrl + l     | - clear terminal                        |
 
-### *Command in terminal*:
+### *Command in terminal*
+
 | Key      | Description                    |
 | :------- | :----------------------------- |
 | fg       | - foreground job[number];      |
@@ -26,7 +29,6 @@
 | exit     | - exit terminal;               |
 | history  | - see command run in the past: |
 | Ctrl + r | - search command history       |
- 
 
 ### **BASIC COMMAND LINUX**
 
@@ -47,6 +49,7 @@
 | rm and rmdir | - remove file and/or directory                 |
 
 ### *LS OPTIONS*
+
 | Key  | Description                        |
 | :--- | :--------------------------------- |
 | -l   | - long list                        |
@@ -55,13 +58,17 @@
 | -t   | - list new files first             |
 | -rt  | - list in reverse time (old first) |
 
-#### option -l:
+#### option -l
+
 example
-```bash 
+
+```bash
 -rw-r--r-- 1 name_user name_user 0 Apr 16 17:36 xfiles.txt
 drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 ```
+
 ### *COPY FILES*
+
 | Key                        | Description                                  |
 | :------------------------- | :------------------------------------------- |
 | cp [files(s)] [destantion] | - copy file(s)                               |
@@ -69,14 +76,13 @@ drwxr-xr-x 2 name_user name_user 4096 Apr 16 17:36  testdir
 | cp -i                      | - copy interactively                         |
 | cp /root/file .            | - copy file to current directory             |
 
- ### *MOVE FILES*
+### *MOVE FILES*
 
 | Key                       | Description                                         |
 | :------------------------ | :-------------------------------------------------- |
 | mv [source] [destination] | - move/rename                                       |
 | mv -i                     | - move interactively (will ask before over writing) |
 | mv /root/file .           | - moves file to current directory                   |
-
 
 ### *DELETE FILES*
 
